@@ -43,7 +43,7 @@ echo "    Draft project name: {$project->getName()}\n\n";
 
 $entityManager->refresh($project);
 echo "    Reverted user name: {$user->getName()}\n";
-echo "    Reverted project name: {$project->getName()}\n"; // The project name is not reverted
+echo "    Reverted project name: {$project->getName()}\n";
 
 // Clear the database
 
